@@ -10,6 +10,12 @@ namespace LiteCommerce.Admin.Controllers
     public class ErrorController : Controller
     {
         // GET: Error
+        //commit new here
+        public int Tam(int a)
+        {
+            int m = a;
+            return m;
+        }
         public ActionResult Index()
         {
             return View();
