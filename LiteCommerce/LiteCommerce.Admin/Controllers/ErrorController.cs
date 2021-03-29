@@ -11,10 +11,10 @@ namespace LiteCommerce.Admin.Controllers
     {
         // GET: Error
         //commit new here
-        public int Tam(int a)
+        public int max(int a, int b)
         {
-            int m = a;
-            return m;
+            
+            return a > b ? a : b;
         }
         public ActionResult Index()
         {
